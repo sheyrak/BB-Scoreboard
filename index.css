@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "Cursed Timer";
+    src: url("ct.ttf")
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+    color: #DDDDDD;
+    text-align: center;
+}
+
+h3 {
+    font-size: 40px;
+    margin-bottom: 15px
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.counter {
+    color: #F94F6D;
+    text-shadow: 0 0 8px #F94F6D;
+    font-size: 90px;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+    font-family: "Cursed Timer";
+    padding: 12px 18px 0 12px;
+    margin: 0 auto 20px auto;
+    border-radius: 6px;
+    box-shadow: 0 0 2px 1px black;
+}
+
+button {
+    font-family: "Cursed Timer";
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #1B244A;
+    padding: 4px 8px 2px 2px;
+    width: 32px;
+    margin: 4px;
+    font-size: 20px;
+    box-shadow: 0 0 2px 0 #dddddd;
+    text-shadow: 0 0 2px #9AABD8;
+}
+
+button:hover {
+    background-color: #1B246F;
+}
+
+#options {
+    margin-top: 8px;
+}
+
+#options button {
+    width: 80%;
+    padding: 8px 0 4px 0;
+
+}
+
+.disabled {
+    background: grey;
+}
+
+.winner {
+    text-shadow: 0 0 20px goldenrod;
+}
