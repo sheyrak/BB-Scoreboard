@@ -12,12 +12,17 @@ body {
 
 h3 {
     font-size: 40px;
-    margin-bottom: 15px
+    margin-bottom: 15px;
+    padding: 0;
+    margin-top: 0px;
 }
 
 #app-container {
     max-width: 400px;
-    margin: 0 auto;
+    margin: 6px auto;
+    padding: 8px 0;
+    box-shadow: 0 0 4px 2px #161d3d;
+    border-radius: 4px;
 }
 
 .container {
